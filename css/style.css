@@ -1,0 +1,31 @@
+*,
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lobster', cursive;
+	margin: 0;
+	line-height: 1.5;
+	text-align: center;
+}
+h1 {
+	font-style: 2.5rem;
+	margin: 1em;
+}
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+.foodish {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3em;
+}
+.foodish img {
+	max-height: 70vh;
+	max-width: 70vw;
+}
